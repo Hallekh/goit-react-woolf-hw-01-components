@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  gap: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+
+.status {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.avatar {
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.status.online {
+  background-color: #4caf50; /* Зелений */
+}
+
+.status.offline {
+  background-color: #f44336; /* Червоний */
+}
