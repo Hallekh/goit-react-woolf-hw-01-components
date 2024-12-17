@@ -25,7 +25,7 @@
   list-style: none;
 }
 
-.item {
+.stat-item {
   flex: 1;
   text-align: center;
   padding: 10px 0;
@@ -34,7 +34,7 @@
   border-right: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.item:last-child {
+.stat-item:last-child {
   border-right: none;
 }
 
