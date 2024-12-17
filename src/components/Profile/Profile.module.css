@@ -14,7 +14,7 @@
   padding: 20px;
 }
 
-.useravatar {
+.userAvatar {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -48,7 +48,6 @@
 .stats li {
   display: flex;
   flex-direction: column;
-  padding: auto;
 }
 
 .label {

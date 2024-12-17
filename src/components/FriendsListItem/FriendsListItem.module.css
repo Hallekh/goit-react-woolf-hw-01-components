@@ -35,10 +35,10 @@
   margin: 0;
 }
 
-.status.online {
-  background-color: #4caf50; /* Зелений */
+.online {
+  background-color: #4caf50;
 }
 
-.status.offline {
-  background-color: #f44336; /* Червоний */
+.offline {
+  background-color: #f44336;
 }
